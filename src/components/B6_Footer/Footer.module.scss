@@ -1,0 +1,60 @@
+@import "../../assets/style/app";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 28px;
+
+  @include desktop {
+    padding-top: 42px;
+  }
+
+  .logo {
+    width: 131px;
+    height: auto;
+
+    @include desktop {
+      width: 260px;
+    }
+
+  }
+
+  .socialLinks {
+    margin-top: 28px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+    .link {
+      text-decoration: none;
+      width: 50px;
+      height: 50px;
+
+      @include desktop {
+        width: 142px;
+        height: 142px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 12px;
+
+        @include desktop {
+          margin-left: 33px;
+        }
+      }
+
+      img {
+        display: block;
+        width: 50px;
+        height: 50px;
+
+        @include desktop {
+          width: 142px;
+          height: 142px;
+        }
+      }
+    }
+  }
+}

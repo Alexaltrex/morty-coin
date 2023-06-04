@@ -1,0 +1,77 @@
+@import "../../assets/style/app";
+
+.first {
+  position: relative;
+  padding-top: 57px;
+
+  @include desktop {
+    padding-top: 51px;
+  }
+
+  .socialLinks {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+    .link {
+      text-decoration: none;
+      width: 50px;
+      height: 50px;
+
+      @include desktop {
+        width: 142px;
+        height: 142px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 12px;
+
+        @include desktop {
+          margin-left: 33px;
+        }
+      }
+
+      img {
+        display: block;
+        width: 50px;
+        height: 50px;
+
+        @include desktop {
+          width: 142px;
+          height: 142px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 60px;
+    width: 400px;
+    height: auto;
+    transform: translateX(-50%);
+
+    @include desktop {
+      top: 0;
+      width: 1000px;
+    }
+  }
+
+  .sublogo {
+    position: relative;
+    z-index: 3;
+    display: block;
+    margin: 312px auto 0;
+    width: 214px;
+    height: 71px;
+
+    @include desktop {
+      margin: 610px auto 0;
+      width: 330px;
+      height: 110px;
+    }
+  }
+}

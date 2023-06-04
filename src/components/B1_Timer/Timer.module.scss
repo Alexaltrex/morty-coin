@@ -1,0 +1,167 @@
+@import "../../assets/style/app";
+
+.timer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 167px;
+
+  @include desktop {
+    padding-top: 362px;
+  }
+
+  .timerWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+    @include desktop {
+      margin-top: 32px;
+    }
+
+    .divider {
+      @include border-black-2;
+      margin-left: 8px;
+      margin-right: 8px;
+      font-size: 37.75px;
+      line-height: 43px;
+      text-align: center;
+      color: #4C65CC;
+
+      @include desktop {
+        @include border-black-5;
+        margin-left: 22px;
+        margin-right: 22px;
+        font-size: 100px;
+        line-height: 115px;
+      }
+    }
+
+    .timeItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p:nth-child(1) {
+        @include border-black-2;
+        font-size: 37.75px;
+        line-height: 43px;
+        text-align: center;
+        color: #4C65CC;
+
+        @include desktop {
+          @include border-black-5;
+          font-size: 100px;
+          line-height: 115px;
+        }
+      }
+
+      p:nth-child(2) {
+        @include border-black-1;
+        margin-top: -2px;
+        font-size: 11.325px;
+        line-height: 13px;
+        color: #FDCDAC;
+
+        @include desktop {
+          @include border-black-3;
+          margin-top: -10px;
+          font-size: 30px;
+          line-height: 35px;
+        }
+      }
+    }
+
+
+  }
+
+  .title {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    @include border-black-2;
+    font-size: 27.935px;
+    line-height: 32px;
+    color: #FEFDA0;
+
+    @include desktop {
+      margin-top: 60px;
+      @include border-black-5;
+      font-size: 74px;
+      line-height: 85px;
+    }
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    @include border-black-2;
+    font-size: 16.2325px;
+    line-height: 19px;
+    color: #FEFDA0;
+
+    @include desktop {
+      @include border-black-5;
+      font-size: 43px;
+      line-height: 49px;
+    }
+
+    &_1 {
+      text-align: center;
+      margin-top: 12px;
+
+      @include desktop {
+        margin-top: 36px;
+        width: 166px;
+      }
+    }
+  }
+
+  .face {
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 302px;
+    height: 306.53px;
+
+    @include desktop {
+      top: 136px;
+      width: 800px;
+      height: 812px;
+    }
+  }
+
+  .btn {
+    @include button;
+    @include centerRow;
+    position: relative;
+    z-index: 2;
+    width: 137.03px;
+    height: 27.18px;
+    background: #000000;
+    border-radius: 6.04px;
+    margin-top: 36px;
+
+    @include desktop {
+      margin-top: 54px;
+      width: 363px;
+      height: 72px;
+      border-radius: 16px;
+    }
+
+    p {
+      font-size: 15.1px;
+      line-height: 17px;
+      color: #FFFFFF;
+
+      @include desktop {
+        font-size: 40px;
+        line-height: 46px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,55 @@
+@import "../../assets/style/app";
+
+.tokenomics {
+  padding-top: 40px;
+
+  @include desktop {
+    padding-top: 60px;
+  }
+
+  .title {
+    @include h2;
+  }
+
+  img {
+    display: block;
+    width: 288px;
+    height: auto;
+    margin-top: -12px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include desktop {
+      margin-top: -24px;
+      width: 818px;
+    }
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+
+    @include desktop {
+      font-size: 40px;
+      line-height: 46px;
+    }
+
+    &_1 {
+      margin-top: 20px;
+
+      @include desktop {
+        margin-top: 40px;
+      }
+    }
+
+    &_2 {
+      margin-top: 23px;
+
+      @include desktop {
+        margin-top: 46px;
+      }
+    }
+  }
+}

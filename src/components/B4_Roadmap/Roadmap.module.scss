@@ -1,0 +1,111 @@
+@import "../../assets/style/app";
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+
+  @include desktop {
+    padding-top: 100px;
+  }
+
+  .logo {
+    width: 288px;
+    height: auto;
+
+    @include desktop {
+      width: 577px;
+    }
+  }
+
+  .text {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+    @include desktop {
+      margin-top: 32px;
+      font-size: 40px;
+      line-height: 46px;
+    }
+  }
+
+  .items {
+    margin-top: 40px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include desktop {
+      margin-top: 80px;
+      margin-left: -120px;
+      margin-right: -120px;
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
+    }
+
+    .item {
+      position: relative;
+      width: 220px;
+
+      @include desktop {
+        width: 300px;
+      }
+
+      &:nth-child(1) {
+        @include desktop {
+          margin-top: 100px;
+        }
+      }
+
+      &:nth-child(2) {
+        margin-top: 20px;
+
+        @include desktop {
+          margin-top: 0;
+        }
+      }
+
+      &:nth-child(3) {
+        margin-top: 20px;
+
+        @include desktop {
+          margin-top: 100px;
+        }
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        @include border-black-2;
+        position: absolute;
+        left: -10px;
+        right: -10px;
+        bottom: 0;
+        transform: translateY(25%);
+        font-size: 18px;
+        line-height: 125%;
+        color: #FFF;
+        text-transform: uppercase;
+
+        @include desktop {
+          @include border-black-5;
+          font-size: 24px;
+        }
+
+      }
+
+    }
+  }
+
+
+}

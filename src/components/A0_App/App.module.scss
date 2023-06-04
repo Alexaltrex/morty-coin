@@ -1,0 +1,27 @@
+@import "../../assets/style/app";
+
+.app {
+  @include container;
+  overflow: hidden;
+  position: relative;
+  background: #FFFD68;
+  padding-bottom: 50px;
+
+  @include desktop {
+
+  }
+
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    object-fit: contain;
+  }
+
+  .inner {
+    position: relative;
+    z-index: 10;
+    @include inner;
+  }
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Soft Marshmallow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Soft Marshmallow";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Soft Marshmallow"), url(./assets/fonts/SoftMarshmallow.otf) format("truetype");
+}
