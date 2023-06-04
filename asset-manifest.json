@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/morty-coin/static/css/main.40f5d855.css",
+    "main.js": "/morty-coin/static/js/main.151f66d7.js",
+    "static/js/787.1b7871e1.chunk.js": "/morty-coin/static/js/787.1b7871e1.chunk.js",
+    "static/media/src.mp4": "/morty-coin/static/media/src.939eb6212c09d48b68da.mp4",
+    "static/media/background.png": "/morty-coin/static/media/background.c28ad13279fb39d712cf.png",
+    "static/media/preview.png": "/morty-coin/static/media/preview.f80223603dfdee9b5980.png",
+    "static/media/first_logo.png": "/morty-coin/static/media/first_logo.f067be4f26367aa2f145.png",
+    "static/media/tokenomics.png": "/morty-coin/static/media/tokenomics.1c3e55705676fdc83a29.png",
+    "static/media/footer.png": "/morty-coin/static/media/footer.77c46457fd72e8d917dc.png",
+    "static/media/face.png": "/morty-coin/static/media/face.ab08510b06405e5300a5.png",
+    "static/media/jar_0.png": "/morty-coin/static/media/jar_0.a46ad465da070245757a.png",
+    "static/media/jar_2.png": "/morty-coin/static/media/jar_2.c096111d81d27bc65619.png",
+    "static/media/jar_1.png": "/morty-coin/static/media/jar_1.7f01417e37246843fec7.png",
+    "static/media/SoftMarshmallow.otf": "/morty-coin/static/media/SoftMarshmallow.6bc1fd5afecbdadef6f5.otf",
+    "static/media/roadmap.png": "/morty-coin/static/media/roadmap.c03ee9a0ee61deddfaac.png",
+    "static/media/social_icon_0.png": "/morty-coin/static/media/social_icon_0.baaff14c1af7373d5d49.png",
+    "static/media/first_sublogo.png": "/morty-coin/static/media/first_sublogo.0a3fe0e528b7859a4eed.png",
+    "static/media/social_icon_2.png": "/morty-coin/static/media/social_icon_2.56c8a1516be636813db0.png",
+    "static/media/social_icon_1.png": "/morty-coin/static/media/social_icon_1.61dbc56be94616369435.png",
+    "index.html": "/morty-coin/index.html",
+    "main.40f5d855.css.map": "/morty-coin/static/css/main.40f5d855.css.map",
+    "main.151f66d7.js.map": "/morty-coin/static/js/main.151f66d7.js.map",
+    "787.1b7871e1.chunk.js.map": "/morty-coin/static/js/787.1b7871e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40f5d855.css",
+    "static/js/main.151f66d7.js"
+  ]
+}
